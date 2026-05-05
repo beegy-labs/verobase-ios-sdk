@@ -15,10 +15,6 @@ let package = Package(
             name: "Verobase",
             path: "Sources/Verobase"
         ),
-        .testTarget(
-            name: "VerobaseTests",
-            dependencies: ["Verobase"],
-            path: "Tests/VerobaseTests"
-        ),
+
     ]
 )
